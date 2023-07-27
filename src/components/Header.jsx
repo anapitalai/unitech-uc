@@ -18,10 +18,9 @@ const Header = () => {
                 >
                   <h1 class="display-3 fw-bold">Welcome to UUC</h1>
                   <p class="lead">
-                    Are you ready to take your blogging journey to new heights?
-                    Blog Mastery is your ultimate guide to creating and managing a
-                    successful blog that captivates your audience and drives
-                    engagement.
+                    The University of Technology is a chaplaincy under the Morobe United
+                    Church circuit. Currently the chaplaincy is being looked after by the
+                    Cassowary United Church.
                   </p>
   
                   <div class="form-container text-center">
