@@ -1,4 +1,4 @@
-name: Deploy website
+name: Deploy UUC website To DO private server
 on:
   push:
     branches:
@@ -11,10 +11,10 @@ jobs:
         uses: actions/checkout@v3
       - name: Install dependencies
         run: npm ci
-#       - name: Lint code
-#         run: npm run lint
-#       - name: Test code
-#         run: npm run test
+      # - name: Lint code
+      #   run: npm run lint
+      # - name: Test code
+      #   run: npm run test
   build:
     needs: test
     runs-on: ubuntu-latest
@@ -25,6 +25,16 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
+      - name: upload
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist-files
+          path: dist
+          # path: |
+          #   dist
+          #   package.json
+
+        
   deploy:
     needs: build
     runs-on: ubuntu-latest
