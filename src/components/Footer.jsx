@@ -20,7 +20,7 @@ const Footer = () => {
             </div>
             <div className="col-md-4">
               <p className="text-end d-none d-md-block">
-                Copyright &copy; Blog Mastery 2023
+                Copyright &copy; Raliku Web Designs 2023
               </p>
             </div>
           </div>
