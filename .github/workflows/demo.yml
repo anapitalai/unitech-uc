@@ -20,7 +20,7 @@ jobs:
       uses: garygrossgarten/github-action-scp@release
       with:
           local: dist
-          remote: /var/www/www.taraka-uc.com/public_html/
+          remote: /var/www/www.unitechchaplaincy.com/public_html/
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
