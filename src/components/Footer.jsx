@@ -14,7 +14,7 @@ const Footer = () => {
                   <a href="#details" className="nav-link link-light">Details</a>
                 </li>
                 <li className="nav-item">
-                  <a href="contact.html" className="nav-link link-light">Contact</a>
+                  <a href="contact.html" className="nav-link link-light"><Articles></Articles></a>
                 </li>
               </ul>
             </div>
