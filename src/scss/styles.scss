@@ -12,7 +12,7 @@
   }
   
   .header {
-  background: url(../images/prayer.jpg) center center no-repeat;
+  background: url(../images/header-background1.jpg) center center no-repeat;
   // background: url() center center no-repeat;
     background-size: cover;
   }
@@ -49,4 +49,14 @@
 
   .cls-1 {
     fill: #f3f6f9;
+  }
+
+  .resize{
+    height: 120px;
+    width:120px;
+  }
+
+  .resize2{
+    height: 440px;
+    width:660px;
   }

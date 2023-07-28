@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../images/download-ebook.png';
+import signboard from '../images/sign.png';
+
 
 const Header = () => {
     return (
@@ -9,7 +11,7 @@ const Header = () => {
             <div class="row">
               <div class="col-md-6">
                 <div class="image-container mb-5 px-4">
-                  <img src={ logo} alt="" class="img-fluid" />
+                  <img src={ signboard } alt="" class="img-fluid" className="resize2" />
                 </div>
               </div>
               <div class="col-md-6">
@@ -18,12 +20,13 @@ const Header = () => {
                 >
                   <h1 class="display-3 fw-bold">Welcome to UUC</h1>
                   <p class="lead">
-                    The University of Technology is a chaplaincy under the Morobe United
+                    The University of Technology chaplaincy is a chaplaincy under the Morobe United
                     Church circuit. Currently the chaplaincy is being looked after by the
                     Cassowary United Church.
+                    Some history can goe here later...........
                   </p>
   
-                  <div class="form-container text-center">
+                  {/* <div class="form-container text-center">
                     <form>
                       <div class="my-4">
                         <input
@@ -38,7 +41,7 @@ const Header = () => {
                         </button>
                       </div>
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

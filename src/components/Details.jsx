@@ -1,17 +1,18 @@
 import React from 'react'
 import logo from '../images/download-ebook.png'
+import alois from '../images/sly.png'
 
 const Details = () => {
     return (
         <>
-        <section id="details" className="details my-5">
+        <section id="articles" className="details my-5">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
               <div
                 className="text-container d-flex flex-column justify-content-center h-100"
               >
-                <h2 className="display-6">Unlock Your Blogging Potential</h2>
+                <h2 className="display-6">Message from the Chairman</h2>
                 <p>
                   Are you ready to unleash your true blogging potential? Our
                   ebook, "Blog Mastery," provides you with the tools and knowledge
@@ -107,7 +108,7 @@ const Details = () => {
           <div className="row">
             <div className="col-12">
               <div className="text-container bg-light p-5 rounded-5">
-                <h2>Master the Art of Blogging Excellence</h2>
+                <h2>Biblical Articles</h2>
                 <p>
                   Transform your blog from a mere hobby to a thriving online
                   business with our ebook, "Blog Mastery: Monetize Your Passion."
@@ -138,7 +139,7 @@ const Details = () => {
               <div
                 className="text-container d-flex flex-column justify-content-center h-100"
               >
-                <h2 className="display-6">Craft Remarkable Content</h2>
+                <h2 className="display-6">Article 1</h2>
                 <p>
                   Discover techniques for effective storytelling, engaging
                   visuals, and compelling calls-to-action. Unlock the secrets of
@@ -229,50 +230,50 @@ const Details = () => {
           <div className="row">
             <div className="col-md-4 text-center">
               <img
-                src="https://randomuser.me/api/portraits/men/32.jpg"
+                src={ alois }
                 alt=""
-                className="rounded-circle mb-3"
+                className="rounded-circle mb-3 resize"
               />
               <p className="lead fst-italic">
                 "This ebook completely transformed my blogging journey. The
                 practical strategies and valuable insights helped me take my blog
                 to new heights. I highly recommend it!"
               </p>
-              <p className="fw-bold">Kenny Smith - Portland, ME</p>
+              <p className="fw-bold">Ali Meta - Chairman</p>
             </div>
   
             <div className="col-md-4 text-center">
               <img
-                src="https://randomuser.me/api/portraits/women/32.jpg"
+                src={ alois }
                 alt=""
-                className="rounded-circle mb-3"
+                className="rounded-circle mb-3 resize"
               />
               <p className="lead fst-italic">
                 "I'm so grateful for this ebook! It provided me with the guidance
                 and inspiration I needed to create engaging content and build a
                 loyal readership. It's a game-changer!"
               </p>
-              <p className="fw-bold">Laurie Mitchell - Miami, FL</p>
+              <p className="fw-bold">Jow Blow, Treasurer</p>
             </div>
   
             <div className="col-md-4 text-center">
               <img
-                src="https://randomuser.me/api/portraits/men/31.jpg"
+                  src={ alois }
                 alt=""
-                className="rounded-circle mb-3"
+                className="rounded-circle mb-3 resize"
               />
               <p className="lead fst-italic">
                 "I can't recommend this ebook enough. It's a treasure of blogging
                 wisdom. It helped me unlock my creativity, connect with my
                 audience, and achieve remarkable results."
               </p>
-              <p className="fw-bold">Henry White - Boston, MA</p>
+              <p className="fw-bold">Jean Jean - Secretary</p>
             </div>
           </div>
         </div>
       </section>
   
-  
+{/*   
       <section className="download">
         <div className="container">
           <div className="row">
@@ -308,7 +309,7 @@ const Details = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
   
      
       <section className="social text-bg-dark py-6 overflow-hidden">
@@ -316,8 +317,7 @@ const Details = () => {
           <div className="row">
             <div className="col-md-6 offset-md-3 text-center fs-4">
               <p>
-                Stay connected and join our vibrant community. For any inquiries
-                or assistance, feel free to reach out to us
+                Stay connected with our living God through prayer.
               </p>
               <div className="social-icons d-flex justify-content-center gap-4">
                 <i className="fab fa-facebook fa-2x"></i>

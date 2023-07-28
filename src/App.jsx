@@ -1,5 +1,5 @@
 import '../src/scss/bootstrap.css'
-// import './App.css'
+import '../src/scss/fontawesome.css'
 import '../src/scss/styles.css'
 import Navigation from './components/Navigation'
 import Header from './components/Header'

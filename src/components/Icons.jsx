@@ -7,34 +7,33 @@ const Icons = () => {
           <div className="container-xl">
             <div className="row hstack g-4">
               <div className="col-md-4 d-flex gap-4">
-                <i className="fas fa-user fa-3x text-primary"></i>
+                <i className="fas fa-church fa-3x text-primary"></i>
                 <div>
-                  <h5 className="fw-bold">Unlock Your Blogging Potential</h5>
+                  <h5 className="fw-bold">Church Service Times</h5>
                   <p className="text-muted">
-                    Discover the key to unleashing your true blogging potential. Our
-                    ebook provides expert guidance on creating compelling content
+                  Services start at 8 AM every Sunday and anyone can come and join the
+                  service.
                   </p>
                 </div>
               </div>
     
               <div className="col-md-4 d-flex gap-4">
-                <i className="fas fa-rocket fa-3x text-secondary"></i>
+                <i className="fas fa-music fa-3x text-secondary"></i>
                 <div>
-                  <h5 className="fw-bold">Skyrocket Your Blog's Success</h5>
+                  <h5 className="fw-bold">Music Practice</h5>
                   <p className="text-muted">
-                    Take your blog to new heights with our proven strategies for
-                    driving traffic and increasing your blog's visibility.
+                    Music practice is every Wednesdays.
                   </p>
                 </div>
               </div>
     
               <div className="col-md-4 d-flex gap-4">
-                <i className="fas fa-dollar fa-3x text-primary"></i>
+                <i className="fas fa-book-bible fa-3x text-primary"></i>
                 <div>
-                  <h5 className="fw-bold">Monetize Your Blog</h5>
+                  <h5 className="fw-bold">Weekly Programs</h5>
                   <p className="text-muted">
-                    Turn your passion for blogging into a profitable venture. Our
-                    ebook reveals tried-and-tested monetization strategies
+                  There are weekly programs that are set and anyone is free during
+                  those allocated days can come and join us.
                   </p>
                 </div>
               </div>

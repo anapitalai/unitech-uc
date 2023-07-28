@@ -5,7 +5,7 @@ const Navigation = () => {
         <div className="container">
           <a href="index.html" className="navbar-brand">
                     <img src="images/logo.png" alt="" width="225" />
-                    UUC
+                    Unitech United Church
           </a>
           <button
             className="navbar-toggler"
@@ -25,9 +25,9 @@ const Navigation = () => {
               </li>
               <li className="nav-item">
                 <a
-                  href="contact.html"
+                  href="#articles"
                   className="nav-link btn btn-outline-light fw-semibold px-4 mx-4"
-                  >Contact</a>
+                  >Articles</a>
               </li>
             </ul>
           </div>
