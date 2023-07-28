@@ -17,7 +17,7 @@ const Header = () => {
                 <div
                   className="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5"
                 >
-                  <h1 className="display-3 fw-bold">Welcome to UUC</h1>
+                  <h1 className="display-3 fw-bold">Welcome to Unitech United Church</h1>
                   <p className="lead">
                     The University of Technology chaplaincy is a chaplaincy under the Morobe United
                     Church circuit. Currently the chaplaincy is being looked after by the
