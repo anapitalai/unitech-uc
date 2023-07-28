@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../images/download-ebook.png';
 import signboard from '../images/sign.png';
 
 
